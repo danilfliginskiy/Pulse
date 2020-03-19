@@ -45,6 +45,15 @@
         .button
             margin-top: 30px
 
+    .slider
+        .carousel
+            width: 80%
+            &__inner
+                img
+                    width: 100%
+                    display: block
+                    margin: 0 auto
+
 @media (max-width: 767px)
     .header
         &__official
@@ -116,6 +125,21 @@
                 height: 50px
                 font-size: 16px
 
+    .slider
+        padding: 50px 0
+        .carousel
+            width: 80%
+            &__inner
+            .prev
+                height: 40px
+                left: 10px
+            .next
+                height: 40px
+                right: 10px
+                img
+                    display: block
+                    margin: 0 auto
+
 @media (max-width: 575px)
     .header
         &__official
@@ -183,3 +207,18 @@
             &_form
                 width: 100%
                 font-size: 15px
+
+    .slider
+        padding: 30px 0
+        .carousel
+            width: 80%
+            &__inner
+            .prev
+                height: 30px
+                left: 10px
+            .next
+                height: 30px
+                right: 10px
+                img
+                    display: block
+                    margin: 0 auto
