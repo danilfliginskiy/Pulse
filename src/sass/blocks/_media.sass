@@ -54,6 +54,29 @@
                     display: block
                     margin: 0 auto
 
+    .catalog
+        &__tab
+            div
+                font-size: 16px
+
+    .reviews
+        .title
+            padding-bottom: 15px
+        &-item
+            margin-top: 40px
+            min-height: 250px
+            &__img
+                height: 140px
+                width: 140px
+            &__text
+                margin-left: 40px
+            &__subtitle
+                margin-top: 6px
+            &__descr
+                margin-top: 12px
+                font-size: 15px
+                line-height: 20px
+
 @media (max-width: 767px)
     .header
         &__official
@@ -140,6 +163,56 @@
                     display: block
                     margin: 0 auto
 
+    .catalog
+        padding-bottom: 40px
+        &__tabs
+            margin: 0
+            margin-top: 30px
+        &__tab
+            div
+                font-size: 15px
+        &-item
+            width: 235px
+            &__list
+                li
+                    margin-top: 12px
+                    margin-left: 5%
+                    font-size: 12px
+                    line-height: 18px
+            &__subtitle
+                margin-top: 15px
+                margin-right: 5%
+            &__descr
+                margin-top: 12px
+                line-height: 20px
+                font-size: 14px
+                margin-right: 5%
+            &__img
+                height: 160px
+            &__price
+                font-size: 16px
+        .button_catalog
+            width: 110px
+            height: 40px
+            font-size: 15px
+        .title
+            font-size: 26px
+
+    .reviews
+        .title
+            font-size: 26px
+        &-item
+            margin-top: 30px
+            align-items: center
+            &__img
+                height: 110px
+                width: 110px
+            &__descr
+                font-size: 13px
+                line-height: 18px
+        hr
+            margin-top: 30px
+
 @media (max-width: 575px)
     .header
         &__official
@@ -222,3 +295,75 @@
                 img
                     display: block
                     margin: 0 auto
+
+    .catalog
+        padding-bottom: 10px
+        &__content
+            margin-top: 40px
+            padding-left: 20px
+        &__tabs
+            display: block
+            margin: 0
+            margin-top: 20px
+        &__tab
+            width: 150px
+            height: 40px
+            border-radius: 10px
+            line-height: 40px
+            margin: 0 auto
+            transform: skewX(0deg)
+            margin-top: 10px
+            div
+                font-size: 14px
+                transform: skewX(0deg)
+        &-item
+            width: 300px
+            &__link
+                margin-right: 5%
+            &__back-link
+                margin-left: 5%
+            &__list
+                li
+                    margin-top: 10px
+                    font-size: 12px
+                    line-height: 18px
+                    padding-left: 5%
+            &__subtitle
+                margin-top: 15px
+                margin-right: 5%
+            &__descr
+                margin-top: 12px
+                line-height: 20px
+                font-size: 13px
+                margin-right: 5%
+            &__img
+                height: 160px
+            &__price
+                font-size: 16px
+        .button_catalog
+            width: 110px
+            height: 40px
+            font-size: 15px
+        .title
+            font-size: 20px
+
+    .reviews
+        .title
+            font-size: 20px
+        &-item
+            margin-top: 20px
+            flex-direction: column
+            &__img
+                height: 140px
+                width: 140px
+            &__text
+                margin: 0
+            &__title
+                margin-top: 10px
+                text-align: center
+            &__subtitle
+                text-align: center
+            &__descr
+                text-align: justify
+        hr
+            margin-top: 20px
